@@ -13,7 +13,7 @@
 # finally:
 #     print("Execute always")
 
-my_list = [1,2,3,4]
+# my_list = [1,2,3,4]
 #
 # for item in my_list:
 #     print(item)
@@ -32,11 +32,11 @@ my_list = [1,2,3,4]
 
 # if el:
 
-list_comp = [element for element in range(5)]
-set_comp = {element for element in range(5)}
-dict_comp = {element: element - 1 for element in range(5)}
-gen_exp = (element for element in range(5))
-pass
+# list_comp = [element for element in range(5)]
+# set_comp = {element for element in range(5)}
+# dict_comp = {element: element - 1 for element in range(5)}
+# gen_exp = (element for element in range(5))
+# pass
 
 #
 # def add_one(number):
@@ -58,7 +58,7 @@ pass
 # a
 # 3
 #
-# def my_sum(my_integers):
+# def my_sum(my_integers): # * vs no *
 #     result = 0
 #     for x in my_integers:
 #         result += x

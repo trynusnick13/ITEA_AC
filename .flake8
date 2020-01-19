@@ -1,0 +1,14 @@
+[flake8]
+ignore = E702, W503
+exclude =
+    # No need to traverse our git directory
+    .git,
+    # There's no value in checking cache directories
+    __pycache__,
+    # forget the __init__.py files
+    __init__.py,
+    # no need to check the venv
+    venv,
+    .venv,
+    migrations,
+    Yurii_Khomych,

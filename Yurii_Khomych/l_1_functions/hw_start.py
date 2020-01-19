@@ -73,18 +73,9 @@ insights = [
         "dtype": "list",
         "value": [
             [
-                {
-                    "ad_id": "6157230050572",
-                    "dimension_name": "Ad - 30",
-                },
-                {
-                    "ad_id": "6156724309972",
-                    "dimension_name": "Ad - 19",
-                },
-                {
-                    "ad_id": "6156724321572",
-                    "dimension_name": "Ad - 30",
-                },
+                {"ad_id": "6157230050572", "dimension_name": "Ad - 30",},
+                {"ad_id": "6156724309972", "dimension_name": "Ad - 19",},
+                {"ad_id": "6156724321572", "dimension_name": "Ad - 30",},
             ],
             [
                 {
@@ -107,24 +98,12 @@ insights = [
                 },
             ],
             [
-                {
-                    "ad_id": "6157230064972",
-                    "dimension_name": "Ad - 37",
-                },
-                {
-                    "ad_id": "6156724342372",
-                    "dimension_name": "Ad - 37",
-                },
+                {"ad_id": "6157230064972", "dimension_name": "Ad - 37",},
+                {"ad_id": "6156724342372", "dimension_name": "Ad - 37",},
             ],
             [
-                {
-                    "ad_id": "6157230144572",
-                    "dimension_name": "Ad - 20",
-                },
-                {
-                    "ad_id": "6146102376172",
-                    "dimension_name": "Ad - 20",
-                },
+                {"ad_id": "6157230144572", "dimension_name": "Ad - 20",},
+                {"ad_id": "6146102376172", "dimension_name": "Ad - 20",},
             ],
             [
                 {
@@ -137,68 +116,29 @@ insights = [
                 },
             ],
             [
-                {
-                    "ad_id": "6157230052572",
-                    "dimension_name": "Facial",
-                },
-                {
-                    "ad_id": "6150127763172",
-                    "dimension_name": "Facial",
-                },
+                {"ad_id": "6157230052572", "dimension_name": "Facial",},
+                {"ad_id": "6150127763172", "dimension_name": "Facial",},
             ],
             [
-                {
-                    "ad_id": "6157230052372",
-                    "dimension_name": "Ad - 36",
-                },
-                {
-                    "ad_id": "6156724338772",
-                    "dimension_name": "Ad - 36",
-                },
+                {"ad_id": "6157230052372", "dimension_name": "Ad - 36",},
+                {"ad_id": "6156724338772", "dimension_name": "Ad - 36",},
             ],
             [
-                {
-                    "ad_id": "6157230142772",
-                    "dimension_name": "Beurer",
-                },
-                {
-                    "ad_id": "6146102375372",
-                    "dimension_name": "Beurer",
-                },
+                {"ad_id": "6157230142772", "dimension_name": "Beurer",},
+                {"ad_id": "6146102375372", "dimension_name": "Beurer",},
             ],
             [
-                {
-                    "ad_id": "6157230065372",
-                    "dimension_name": "Ad - 33",
-                },
-                {
-                    "ad_id": "6157230126172",
-                    "dimension_name": "Ad - 22",
-                },
-                {
-                    "ad_id": "6156724307172",
-                    "dimension_name": "Ad - 22",
-                },
-                {
-                    "ad_id": "6156724329172",
-                    "dimension_name": "Ad - 33",
-                },
+                {"ad_id": "6157230065372", "dimension_name": "Ad - 33",},
+                {"ad_id": "6157230126172", "dimension_name": "Ad - 22",},
+                {"ad_id": "6156724307172", "dimension_name": "Ad - 22",},
+                {"ad_id": "6156724329172", "dimension_name": "Ad - 33",},
             ],
             [
-                {
-                    "ad_id": "6157230065172",
-                    "dimension_name": "Ad - 35",
-                },
-                {
-                    "ad_id": "6156724328972",
-                    "dimension_name": "Ad - 35",
-                },
+                {"ad_id": "6157230065172", "dimension_name": "Ad - 35",},
+                {"ad_id": "6156724328972", "dimension_name": "Ad - 35",},
             ],
             [
-                {
-                    "ad_id": "6157230050772",
-                    "dimension_name": "Macbook",
-                },
+                {"ad_id": "6157230050772", "dimension_name": "Macbook",},
                 {
                     "ad_id": "6157230118172",
                     "dimension_name": "Macbook - Copy",
@@ -207,30 +147,15 @@ insights = [
                     "ad_id": "6150128327172",
                     "dimension_name": "Macbook - Copy",
                 },
-                {
-                    "ad_id": "6150127763572",
-                    "dimension_name": "Macbook",
-                },
+                {"ad_id": "6150127763572", "dimension_name": "Macbook",},
             ],
             [
-                {
-                    "ad_id": "6157230078772",
-                    "dimension_name": "Ad - 47",
-                },
-                {
-                    "ad_id": "6156724361172",
-                    "dimension_name": "Ad - 47",
-                },
+                {"ad_id": "6157230078772", "dimension_name": "Ad - 47",},
+                {"ad_id": "6156724361172", "dimension_name": "Ad - 47",},
             ],
             [
-                {
-                    "ad_id": "6157230076372",
-                    "dimension_name": "Ad - 31",
-                },
-                {
-                    "ad_id": "6156724331372",
-                    "dimension_name": "Ad - 31",
-                },
+                {"ad_id": "6157230076372", "dimension_name": "Ad - 31",},
+                {"ad_id": "6156724331372", "dimension_name": "Ad - 31",},
             ],
             [
                 {
@@ -243,88 +168,37 @@ insights = [
                 },
             ],
             [
-                {
-                    "ad_id": "6157230076572",
-                    "dimension_name": "Ad - 38",
-                },
-                {
-                    "ad_id": "6156724339572",
-                    "dimension_name": "Ad - 38",
-                },
+                {"ad_id": "6157230076572", "dimension_name": "Ad - 38",},
+                {"ad_id": "6156724339572", "dimension_name": "Ad - 38",},
             ],
             [
-                {
-                    "ad_id": "6157230038772",
-                    "dimension_name": "Ad - 19",
-                },
-                {
-                    "ad_id": "6157230100972",
-                    "dimension_name": "Ad - 13",
-                },
-                {
-                    "ad_id": "6146102117972",
-                    "dimension_name": "Ad - 13",
-                },
-                {
-                    "ad_id": "6146102402972",
-                    "dimension_name": "Ad - 19",
-                },
+                {"ad_id": "6157230038772", "dimension_name": "Ad - 19",},
+                {"ad_id": "6157230100972", "dimension_name": "Ad - 13",},
+                {"ad_id": "6146102117972", "dimension_name": "Ad - 13",},
+                {"ad_id": "6146102402972", "dimension_name": "Ad - 19",},
             ],
             [
-                {
-                    "ad_id": "6157230132172",
-                    "dimension_name": "Ad - 24",
-                },
-                {
-                    "ad_id": "6146102377972",
-                    "dimension_name": "Ad - 24",
-                },
+                {"ad_id": "6157230132172", "dimension_name": "Ad - 24",},
+                {"ad_id": "6146102377972", "dimension_name": "Ad - 24",},
             ],
             [
-                {
-                    "ad_id": "6157230051572",
-                    "dimension_name": "Ad - 39",
-                },
-                {
-                    "ad_id": "6156724342172",
-                    "dimension_name": "Ad - 39",
-                },
+                {"ad_id": "6157230051572", "dimension_name": "Ad - 39",},
+                {"ad_id": "6156724342172", "dimension_name": "Ad - 39",},
             ],
             [
-                {
-                    "ad_id": "6157230040172",
-                    "dimension_name": "Ad - 18",
-                },
-                {
-                    "ad_id": "6146102413972",
-                    "dimension_name": "Ad - 18",
-                },
+                {"ad_id": "6157230040172", "dimension_name": "Ad - 18",},
+                {"ad_id": "6146102413972", "dimension_name": "Ad - 18",},
             ],
             [
-                {
-                    "ad_id": "6157230038572",
-                    "dimension_name": "Kiko",
-                },
-                {
-                    "ad_id": "6146102412172",
-                    "dimension_name": "Kiko",
-                },
+                {"ad_id": "6157230038572", "dimension_name": "Kiko",},
+                {"ad_id": "6146102412172", "dimension_name": "Kiko",},
             ],
             [
-                {
-                    "ad_id": "6157230092372",
-                    "dimension_name": "Ad - 44",
-                },
-                {
-                    "ad_id": "6156724348572",
-                    "dimension_name": "Ad - 44",
-                },
+                {"ad_id": "6157230092372", "dimension_name": "Ad - 44",},
+                {"ad_id": "6156724348572", "dimension_name": "Ad - 44",},
             ],
             [
-                {
-                    "ad_id": "6157230040572",
-                    "dimension_name": "Ad - 20",
-                },
+                {"ad_id": "6157230040572", "dimension_name": "Ad - 20",},
                 {
                     "ad_id": "6157230110372",
                     "dimension_name": "Test - Image 1",
@@ -333,10 +207,7 @@ insights = [
                     "ad_id": "6146102046172",
                     "dimension_name": "Test - Image 1",
                 },
-                {
-                    "ad_id": "6146102401772",
-                    "dimension_name": "Ad - 20",
-                },
+                {"ad_id": "6146102401772", "dimension_name": "Ad - 20",},
             ],
             [
                 {
@@ -349,128 +220,50 @@ insights = [
                 },
             ],
             [
-                {
-                    "ad_id": "6157230063972",
-                    "dimension_name": "Ad - 32",
-                },
-                {
-                    "ad_id": "6157230126972",
-                    "dimension_name": "Ad - 21",
-                },
-                {
-                    "ad_id": "6156724306972",
-                    "dimension_name": "Ad - 21",
-                },
-                {
-                    "ad_id": "6156724326972",
-                    "dimension_name": "Ad - 32",
-                },
+                {"ad_id": "6157230063972", "dimension_name": "Ad - 32",},
+                {"ad_id": "6157230126972", "dimension_name": "Ad - 21",},
+                {"ad_id": "6156724306972", "dimension_name": "Ad - 21",},
+                {"ad_id": "6156724326972", "dimension_name": "Ad - 32",},
             ],
             [
-                {
-                    "ad_id": "6157230075572",
-                    "dimension_name": "Ad - 42",
-                },
-                {
-                    "ad_id": "6156724352972",
-                    "dimension_name": "Ad - 42",
-                },
+                {"ad_id": "6157230075572", "dimension_name": "Ad - 42",},
+                {"ad_id": "6156724352972", "dimension_name": "Ad - 42",},
             ],
             [
-                {
-                    "ad_id": "6157230088772",
-                    "dimension_name": "Ad - 43",
-                },
-                {
-                    "ad_id": "6157230115772",
-                    "dimension_name": "Ad - 32",
-                },
-                {
-                    "ad_id": "6156724321372",
-                    "dimension_name": "Ad - 32",
-                },
-                {
-                    "ad_id": "6156724348772",
-                    "dimension_name": "Ad - 43",
-                },
+                {"ad_id": "6157230088772", "dimension_name": "Ad - 43",},
+                {"ad_id": "6157230115772", "dimension_name": "Ad - 32",},
+                {"ad_id": "6156724321372", "dimension_name": "Ad - 32",},
+                {"ad_id": "6156724348772", "dimension_name": "Ad - 43",},
             ],
             [
-                {
-                    "ad_id": "6157230076772",
-                    "dimension_name": "Ad - 34",
-                },
-                {
-                    "ad_id": "6156724310172",
-                    "dimension_name": "Ad - 23",
-                },
-                {
-                    "ad_id": "6156724326772",
-                    "dimension_name": "Ad - 34",
-                },
+                {"ad_id": "6157230076772", "dimension_name": "Ad - 34",},
+                {"ad_id": "6156724310172", "dimension_name": "Ad - 23",},
+                {"ad_id": "6156724326772", "dimension_name": "Ad - 34",},
             ],
             [
-                {
-                    "ad_id": "6157230040772",
-                    "dimension_name": "Ad - 22",
-                },
-                {
-                    "ad_id": "6146102032572",
-                    "dimension_name": "Ad - 22",
-                },
+                {"ad_id": "6157230040772", "dimension_name": "Ad - 22",},
+                {"ad_id": "6146102032572", "dimension_name": "Ad - 22",},
             ],
             [
-                {
-                    "ad_id": "6157230090372",
-                    "dimension_name": "Ad - 41",
-                },
-                {
-                    "ad_id": "6156724351372",
-                    "dimension_name": "Ad - 41",
-                },
+                {"ad_id": "6157230090372", "dimension_name": "Ad - 41",},
+                {"ad_id": "6156724351372", "dimension_name": "Ad - 41",},
             ],
             [
-                {
-                    "ad_id": "6157230089572",
-                    "dimension_name": "Ad - 40",
-                },
-                {
-                    "ad_id": "6156724338572",
-                    "dimension_name": "Ad - 40",
-                },
+                {"ad_id": "6157230089572", "dimension_name": "Ad - 40",},
+                {"ad_id": "6156724338572", "dimension_name": "Ad - 40",},
             ],
             [
-                {
-                    "ad_id": "6157230064172",
-                    "dimension_name": "Ad - 29",
-                },
-                {
-                    "ad_id": "6156724312172",
-                    "dimension_name": "Ad - 18",
-                },
-                {
-                    "ad_id": "6156724317572",
-                    "dimension_name": "Ad - 29",
-                },
+                {"ad_id": "6157230064172", "dimension_name": "Ad - 29",},
+                {"ad_id": "6156724312172", "dimension_name": "Ad - 18",},
+                {"ad_id": "6156724317572", "dimension_name": "Ad - 29",},
             ],
             [
-                {
-                    "ad_id": "6157230111172",
-                    "dimension_name": "Earphones",
-                },
-                {
-                    "ad_id": "6146102073172",
-                    "dimension_name": "Earphones",
-                },
+                {"ad_id": "6157230111172", "dimension_name": "Earphones",},
+                {"ad_id": "6146102073172", "dimension_name": "Earphones",},
             ],
             [
-                {
-                    "ad_id": "6157230105772",
-                    "dimension_name": "Stereo",
-                },
-                {
-                    "ad_id": "6146102072972",
-                    "dimension_name": "Stereo",
-                },
+                {"ad_id": "6157230105772", "dimension_name": "Stereo",},
+                {"ad_id": "6146102072972", "dimension_name": "Stereo",},
             ],
             [
                 {
@@ -503,24 +296,12 @@ insights = [
                 },
             ],
             [
-                {
-                    "ad_id": "6157230105972",
-                    "dimension_name": "PS4",
-                },
-                {
-                    "ad_id": "6146102113772",
-                    "dimension_name": "PS4",
-                },
+                {"ad_id": "6157230105972", "dimension_name": "PS4",},
+                {"ad_id": "6146102113772", "dimension_name": "PS4",},
             ],
             [
-                {
-                    "ad_id": "6157230125372",
-                    "dimension_name": "Ad - 34",
-                },
-                {
-                    "ad_id": "6156724318972",
-                    "dimension_name": "Ad - 34",
-                },
+                {"ad_id": "6157230125372", "dimension_name": "Ad - 34",},
+                {"ad_id": "6156724318972", "dimension_name": "Ad - 34",},
             ],
             [
                 {
@@ -533,14 +314,8 @@ insights = [
                 },
             ],
             [
-                {
-                    "ad_id": "6157230115972",
-                    "dimension_name": "Speaker",
-                },
-                {
-                    "ad_id": "6150128513572",
-                    "dimension_name": "Speaker",
-                },
+                {"ad_id": "6157230115972", "dimension_name": "Speaker",},
+                {"ad_id": "6150128513572", "dimension_name": "Speaker",},
             ],
             [
                 {
@@ -553,172 +328,64 @@ insights = [
                 },
             ],
             [
-                {
-                    "ad_id": "6157230104172",
-                    "dimension_name": "Ad - 13",
-                },
-                {
-                    "ad_id": "6146102072772",
-                    "dimension_name": "Ad - 13",
-                },
-                {
-                    "ad_id": "6146102339972",
-                    "dimension_name": "Ad - 18",
-                },
+                {"ad_id": "6157230104172", "dimension_name": "Ad - 13",},
+                {"ad_id": "6146102072772", "dimension_name": "Ad - 13",},
+                {"ad_id": "6146102339972", "dimension_name": "Ad - 18",},
             ],
             [
-                {
-                    "ad_id": "6156696455372",
-                    "dimension_name": "Ad - 5",
-                },
-                {
-                    "ad_id": "6156696427772",
-                    "dimension_name": "Ad - 5",
-                },
+                {"ad_id": "6156696455372", "dimension_name": "Ad - 5",},
+                {"ad_id": "6156696427772", "dimension_name": "Ad - 5",},
             ],
             [
-                {
-                    "ad_id": "6156696462572",
-                    "dimension_name": "Ad - 15",
-                },
-                {
-                    "ad_id": "6156696435572",
-                    "dimension_name": "Ad - 15",
-                },
+                {"ad_id": "6156696462572", "dimension_name": "Ad - 15",},
+                {"ad_id": "6156696435572", "dimension_name": "Ad - 15",},
             ],
             [
-                {
-                    "ad_id": "6156696461972",
-                    "dimension_name": "Ad - 20",
-                },
-                {
-                    "ad_id": "6156696449172",
-                    "dimension_name": "Ad - 20",
-                },
+                {"ad_id": "6156696461972", "dimension_name": "Ad - 20",},
+                {"ad_id": "6156696449172", "dimension_name": "Ad - 20",},
             ],
             [
-                {
-                    "ad_id": "6156696465372",
-                    "dimension_name": "Ad - 18",
-                },
-                {
-                    "ad_id": "6156696452572",
-                    "dimension_name": "Ad - 18",
-                },
+                {"ad_id": "6156696465372", "dimension_name": "Ad - 18",},
+                {"ad_id": "6156696452572", "dimension_name": "Ad - 18",},
             ],
             [
-                {
-                    "ad_id": "6156696462172",
-                    "dimension_name": "Ad - 12",
-                },
-                {
-                    "ad_id": "6156696440172",
-                    "dimension_name": "Ad - 12",
-                },
+                {"ad_id": "6156696462172", "dimension_name": "Ad - 12",},
+                {"ad_id": "6156696440172", "dimension_name": "Ad - 12",},
             ],
             [
-                {
-                    "ad_id": "6156696459972",
-                    "dimension_name": "Ad - 8",
-                },
-                {
-                    "ad_id": "6156696426172",
-                    "dimension_name": "Ad - 8",
-                },
+                {"ad_id": "6156696459972", "dimension_name": "Ad - 8",},
+                {"ad_id": "6156696426172", "dimension_name": "Ad - 8",},
             ],
             [
-                {
-                    "ad_id": "6156696456972",
-                    "dimension_name": "Ad - 9",
-                },
-                {
-                    "ad_id": "6156696426972",
-                    "dimension_name": "Ad - 9",
-                },
+                {"ad_id": "6156696456972", "dimension_name": "Ad - 9",},
+                {"ad_id": "6156696426972", "dimension_name": "Ad - 9",},
             ],
             [
-                {
-                    "ad_id": "6155106759772",
-                    "dimension_name": "Hombres DCO",
-                },
-                {
-                    "ad_id": "6155106756572",
-                    "dimension_name": "Mujeres DCO",
-                },
-                {
-                    "ad_id": "6154050041972",
-                    "dimension_name": "Ad - 1",
-                },
-                {
-                    "ad_id": "6154049060572",
-                    "dimension_name": "Ad - 2",
-                },
-                {
-                    "ad_id": "6154049101372",
-                    "dimension_name": "Ad - 1",
-                },
-                {
-                    "ad_id": "6152590296772",
-                    "dimension_name": "Mujeres DCO",
-                },
-                {
-                    "ad_id": "6145275317372",
-                    "dimension_name": "Hombres DCO",
-                },
+                {"ad_id": "6155106759772", "dimension_name": "Hombres DCO",},
+                {"ad_id": "6155106756572", "dimension_name": "Mujeres DCO",},
+                {"ad_id": "6154050041972", "dimension_name": "Ad - 1",},
+                {"ad_id": "6154049060572", "dimension_name": "Ad - 2",},
+                {"ad_id": "6154049101372", "dimension_name": "Ad - 1",},
+                {"ad_id": "6152590296772", "dimension_name": "Mujeres DCO",},
+                {"ad_id": "6145275317372", "dimension_name": "Hombres DCO",},
             ],
             [
-                {
-                    "ad_id": "6148089324772",
-                    "dimension_name": "Ad - 0 - Copy",
-                },
-                {
-                    "ad_id": "6145534054172",
-                    "dimension_name": "MX-Enero",
-                },
-                {
-                    "ad_id": "6145534054372",
-                    "dimension_name": "MX-Enero",
-                },
-                {
-                    "ad_id": "6145532617972",
-                    "dimension_name": "Mujeres DCO",
-                },
-                {
-                    "ad_id": "6145532618772",
-                    "dimension_name": "Hombres DCO",
-                },
-                {
-                    "ad_id": "6145267956772",
-                    "dimension_name": "DCO MUJERES",
-                },
-                {
-                    "ad_id": "6145267959772",
-                    "dimension_name": "DCO HOMBRES",
-                },
+                {"ad_id": "6148089324772", "dimension_name": "Ad - 0 - Copy",},
+                {"ad_id": "6145534054172", "dimension_name": "MX-Enero",},
+                {"ad_id": "6145534054372", "dimension_name": "MX-Enero",},
+                {"ad_id": "6145532617972", "dimension_name": "Mujeres DCO",},
+                {"ad_id": "6145532618772", "dimension_name": "Hombres DCO",},
+                {"ad_id": "6145267956772", "dimension_name": "DCO MUJERES",},
+                {"ad_id": "6145267959772", "dimension_name": "DCO HOMBRES",},
                 {
                     "ad_id": "6145267965572",
                     "dimension_name": "DCO VIDEO JUEGOS",
                 },
-                {
-                    "ad_id": "6145264648772",
-                    "dimension_name": "MX-Enero",
-                },
-                {
-                    "ad_id": "6145264646172",
-                    "dimension_name": "MX-Enero",
-                },
-                {
-                    "ad_id": "6145258913772",
-                    "dimension_name": "Ad - 0",
-                },
-                {
-                    "ad_id": "6145255007172",
-                    "dimension_name": "AR Male DCO",
-                },
-                {
-                    "ad_id": "6145255007572",
-                    "dimension_name": "Ad - 2",
-                },
+                {"ad_id": "6145264648772", "dimension_name": "MX-Enero",},
+                {"ad_id": "6145264646172", "dimension_name": "MX-Enero",},
+                {"ad_id": "6145258913772", "dimension_name": "Ad - 0",},
+                {"ad_id": "6145255007172", "dimension_name": "AR Male DCO",},
+                {"ad_id": "6145255007572", "dimension_name": "Ad - 2",},
             ],
         ],
         "dimension": "ad_id",
@@ -733,14 +400,8 @@ insights = [
         "dtype": "list",
         "value": [
             [
-                {
-                    "adset_id": "6157230030372",
-                    "dimension_name": "Mujeres",
-                },
-                {
-                    "adset_id": "6146101998972",
-                    "dimension_name": "Mujeres",
-                },
+                {"adset_id": "6157230030372", "dimension_name": "Mujeres",},
+                {"adset_id": "6146101998972", "dimension_name": "Mujeres",},
             ],
             [
                 {
@@ -753,44 +414,20 @@ insights = [
                 },
             ],
             [
-                {
-                    "adset_id": "6155106724772",
-                    "dimension_name": "Hombres",
-                },
-                {
-                    "adset_id": "6145275245372",
-                    "dimension_name": "Hombres",
-                },
+                {"adset_id": "6155106724772", "dimension_name": "Hombres",},
+                {"adset_id": "6145275245372", "dimension_name": "Hombres",},
             ],
             [
-                {
-                    "adset_id": "6155106724572",
-                    "dimension_name": "Mujeres",
-                },
-                {
-                    "adset_id": "6152590296972",
-                    "dimension_name": "Mujeres",
-                },
+                {"adset_id": "6155106724572", "dimension_name": "Mujeres",},
+                {"adset_id": "6152590296972", "dimension_name": "Mujeres",},
             ],
             [
-                {
-                    "adset_id": "6145534054772",
-                    "dimension_name": "Mujeres",
-                },
-                {
-                    "adset_id": "6145264569772",
-                    "dimension_name": "Mujeres",
-                },
+                {"adset_id": "6145534054772", "dimension_name": "Mujeres",},
+                {"adset_id": "6145264569772", "dimension_name": "Mujeres",},
             ],
             [
-                {
-                    "adset_id": "6145534053972",
-                    "dimension_name": "Hombres",
-                },
-                {
-                    "adset_id": "6145264570972",
-                    "dimension_name": "Hombres",
-                },
+                {"adset_id": "6145534053972", "dimension_name": "Hombres",},
+                {"adset_id": "6145264570972", "dimension_name": "Hombres",},
             ],
         ],
         "dimension": "adset_id",
@@ -801,8 +438,8 @@ insights = [
     },
     {
         "metric_name": "cpc",
-        "api": 1,
-        "period": 7,
+        "api": 2,
+        "period": 14,
         "entities_affected": {
             "entities": [
                 {
@@ -1117,11 +754,17 @@ insights = [
                     "dimensions": [],
                 },
                 "profit": {
-                    "action_offsite_conversion_value": {"profit": 0.0, "period": 1},
+                    "action_offsite_conversion_value": {
+                        "profit": 0.0,
+                        "period": 1,
+                    },
                     "action_offsite_conversion": {"profit": 0.0, "period": 1},
                     "impressions": {"profit": 130391.33520889957, "period": 1},
                     "spend": {"profit": 0.0, "period": 1},
-                    "action_link_click": {"profit": 2988.6943900434107, "period": 1},
+                    "action_link_click": {
+                        "profit": 2988.6943900434107,
+                        "period": 1,
+                    },
                 },
                 "type": 10,
                 "tag": "Safe",
@@ -1223,11 +866,17 @@ insights = [
                     "dimensions": [],
                 },
                 "profit": {
-                    "action_offsite_conversion_value": {"profit": 0.0, "period": 1},
+                    "action_offsite_conversion_value": {
+                        "profit": 0.0,
+                        "period": 1,
+                    },
                     "action_offsite_conversion": {"profit": 0.0, "period": 1},
                     "impressions": {"profit": 26080.081939618394, "period": 1},
                     "spend": {"profit": 2.842170943040401e-14, "period": 1},
-                    "action_link_click": {"profit": 597.7804772068175, "period": 1},
+                    "action_link_click": {
+                        "profit": 597.7804772068175,
+                        "period": 1,
+                    },
                 },
                 "type": 10,
                 "tag": "Easy",
@@ -1373,7 +1022,7 @@ insights = [
     },
     {
         "metric_name": "cpc",
-        "api": 1,
+        "api": 3,
         "period": 7,
         "entities_affected": {
             "entities": [
@@ -1619,16 +1268,26 @@ insights = [
                     "recommended_ratio_1": 50.0,
                     "publisher_platform": {
                         "triggered": ["facebook"],
-                        "non_triggered": ["messenger", "audience_network", "instagram"],
+                        "non_triggered": [
+                            "messenger",
+                            "audience_network",
+                            "instagram",
+                        ],
                     },
                     "dimensions": ["publisher_platform"],
                 },
                 "profit": {
-                    "action_offsite_conversion_value": {"profit": 0.0, "period": 1},
+                    "action_offsite_conversion_value": {
+                        "profit": 0.0,
+                        "period": 1,
+                    },
                     "action_offsite_conversion": {"profit": 0.0, "period": 1},
                     "impressions": {"profit": 10107.758446845459, "period": 1},
                     "spend": {"profit": -1.4210854715202004e-14, "period": 1},
-                    "action_link_click": {"profit": 200.90563004124942, "period": 1},
+                    "action_link_click": {
+                        "profit": 200.90563004124942,
+                        "period": 1,
+                    },
                 },
                 "type": 10,
                 "tag": "Safe",
@@ -1807,8 +1466,8 @@ insights = [
     },
     {
         "metric_name": "cpc",
-        "api": 1,
-        "period": 7,
+        "api": 2,
+        "period": 30,
         "entities_affected": {
             "entities": [
                 {
@@ -2025,7 +1684,11 @@ insights = [
                 "id": 35,
                 "meta": {
                     "1": [
-                        {"dimension": "device_type", "type": 1, "value": ["desktop"]}
+                        {
+                            "dimension": "device_type",
+                            "type": 1,
+                            "value": ["desktop"],
+                        }
                     ],
                     "triggered": {"device_type": ["desktop"]},
                 },
@@ -2047,11 +1710,20 @@ insights = [
                     "dimensions": ["impression_device"],
                 },
                 "profit": {
-                    "action_offsite_conversion_value": {"profit": 0.0, "period": 1},
+                    "action_offsite_conversion_value": {
+                        "profit": 0.0,
+                        "period": 1,
+                    },
                     "action_offsite_conversion": {"profit": 0.0, "period": 1},
-                    "impressions": {"profit": -36717.399999999994, "period": 1},
+                    "impressions": {
+                        "profit": -36717.399999999994,
+                        "period": 1,
+                    },
                     "spend": {"profit": -28.950416000000004, "period": 1},
-                    "action_link_click": {"profit": -184.79999999999995, "period": 1},
+                    "action_link_click": {
+                        "profit": -184.79999999999995,
+                        "period": 1,
+                    },
                 },
                 "type": 10,
                 "tag": "Safe",
@@ -2165,7 +1837,10 @@ insights = [
                     "dimensions": ["impression_device"],
                 },
                 "profit": {
-                    "action_offsite_conversion_value": {"profit": 0.0, "period": 1},
+                    "action_offsite_conversion_value": {
+                        "profit": 0.0,
+                        "period": 1,
+                    },
                     "action_offsite_conversion": {"profit": 0.0, "period": 1},
                     "impressions": {"profit": -111262.4, "period": 1},
                     "spend": {"profit": -78.8259998, "period": 1},
@@ -2216,10 +1891,14 @@ insights = [
                 "Action steps": {
                     "_comment": "42",
                     "is_cbo": {
-                        "actions": [{"action": "change_status", "value": "PAUSED"}]
+                        "actions": [
+                            {"action": "change_status", "value": "PAUSED"}
+                        ]
                     },
                     "is_not_cbo": {
-                        "actions": [{"action": "change_status", "value": "PAUSED"}],
+                        "actions": [
+                            {"action": "change_status", "value": "PAUSED"}
+                        ],
                         "_comment": "42",
                     },
                 },
@@ -2232,7 +1911,11 @@ insights = [
                 "id": 27,
                 "meta": {
                     "0": [
-                        {"dimension": "device_type", "type": 1, "value": ["desktop"]}
+                        {
+                            "dimension": "device_type",
+                            "type": 1,
+                            "value": ["desktop"],
+                        }
                     ],
                     "triggered": {"device_type": ["desktop"]},
                 },
@@ -2254,11 +1937,17 @@ insights = [
                     "dimensions": ["impression_device"],
                 },
                 "profit": {
-                    "action_offsite_conversion_value": {"profit": 0.0, "period": 1},
+                    "action_offsite_conversion_value": {
+                        "profit": 0.0,
+                        "period": 1,
+                    },
                     "action_offsite_conversion": {"profit": 0.0, "period": 1},
                     "impressions": {"profit": 6552.444607212412, "period": 1},
                     "spend": {"profit": 0.0, "period": 1},
-                    "action_link_click": {"profit": 146.40629596720646, "period": 1},
+                    "action_link_click": {
+                        "profit": 146.40629596720646,
+                        "period": 1,
+                    },
                 },
                 "type": 10,
                 "tag": "Radical",
@@ -2415,8 +2104,8 @@ insights = [
     },
     {
         "metric_name": "cpc",
-        "api": 1,
-        "period": 7,
+        "api": 3,
+        "period": 20,
         "entities_affected": {
             "entities": [
                 {
@@ -2633,7 +2322,11 @@ insights = [
                 "id": 35,
                 "meta": {
                     "1": [
-                        {"dimension": "device_type", "type": 1, "value": ["desktop"]}
+                        {
+                            "dimension": "device_type",
+                            "type": 1,
+                            "value": ["desktop"],
+                        }
                     ],
                     "triggered": {"device_type": ["desktop"]},
                 },
@@ -2655,11 +2348,20 @@ insights = [
                     "dimensions": ["impression_device"],
                 },
                 "profit": {
-                    "action_offsite_conversion_value": {"profit": 0.0, "period": 1},
+                    "action_offsite_conversion_value": {
+                        "profit": 0.0,
+                        "period": 1,
+                    },
                     "action_offsite_conversion": {"profit": 0.0, "period": 1},
-                    "impressions": {"profit": -34903.571428571435, "period": 1},
+                    "impressions": {
+                        "profit": -34903.571428571435,
+                        "period": 1,
+                    },
                     "spend": {"profit": -33.58915542857143, "period": 1},
-                    "action_link_click": {"profit": -194.1428571428571, "period": 1},
+                    "action_link_click": {
+                        "profit": -194.1428571428571,
+                        "period": 1,
+                    },
                 },
                 "type": 10,
                 "tag": "Safe",
@@ -2773,9 +2475,15 @@ insights = [
                     "dimensions": ["impression_device"],
                 },
                 "profit": {
-                    "action_offsite_conversion_value": {"profit": 0.0, "period": 1},
+                    "action_offsite_conversion_value": {
+                        "profit": 0.0,
+                        "period": 1,
+                    },
                     "action_offsite_conversion": {"profit": 0.0, "period": 1},
-                    "impressions": {"profit": -125099.57142857143, "period": 1},
+                    "impressions": {
+                        "profit": -125099.57142857143,
+                        "period": 1,
+                    },
                     "spend": {"profit": -110.10428614285715, "period": 1},
                     "action_link_click": {"profit": -881.0, "period": 1},
                 },
@@ -2824,10 +2532,14 @@ insights = [
                 "Action steps": {
                     "_comment": "42",
                     "is_cbo": {
-                        "actions": [{"action": "change_status", "value": "PAUSED"}]
+                        "actions": [
+                            {"action": "change_status", "value": "PAUSED"}
+                        ]
                     },
                     "is_not_cbo": {
-                        "actions": [{"action": "change_status", "value": "PAUSED"}],
+                        "actions": [
+                            {"action": "change_status", "value": "PAUSED"}
+                        ],
                         "_comment": "42",
                     },
                 },
@@ -2840,7 +2552,11 @@ insights = [
                 "id": 27,
                 "meta": {
                     "0": [
-                        {"dimension": "device_type", "type": 1, "value": ["desktop"]}
+                        {
+                            "dimension": "device_type",
+                            "type": 1,
+                            "value": ["desktop"],
+                        }
                     ],
                     "triggered": {"device_type": ["desktop"]},
                 },
@@ -2862,11 +2578,17 @@ insights = [
                     "dimensions": ["impression_device"],
                 },
                 "profit": {
-                    "action_offsite_conversion_value": {"profit": 0.0, "period": 1},
+                    "action_offsite_conversion_value": {
+                        "profit": 0.0,
+                        "period": 1,
+                    },
                     "action_offsite_conversion": {"profit": 0.0, "period": 1},
                     "impressions": {"profit": 4691.3091493400425, "period": 1},
                     "spend": {"profit": 0.0, "period": 1},
-                    "action_link_click": {"profit": 107.37856892386492, "period": 1},
+                    "action_link_click": {
+                        "profit": 107.37856892386492,
+                        "period": 1,
+                    },
                 },
                 "type": 10,
                 "tag": "Radical",
@@ -3024,7 +2746,7 @@ insights = [
     {
         "metric_name": "cpc",
         "api": 1,
-        "period": 7,
+        "period": 15,
         "entities_affected": {
             "entities": [
                 {
@@ -3241,7 +2963,13 @@ insights = [
             {
                 "id": 33,
                 "meta": {
-                    "1": [{"dimension": "age_range", "type": 2, "value": [25, 65]}],
+                    "1": [
+                        {
+                            "dimension": "age_range",
+                            "type": 2,
+                            "value": [25, 65],
+                        }
+                    ],
                     "triggered": {"age_range": [18, 24]},
                 },
                 "input_types": [],
@@ -3270,9 +2998,15 @@ insights = [
                     "dimensions": ["age"],
                 },
                 "profit": {
-                    "action_offsite_conversion_value": {"profit": 0.0, "period": 1},
+                    "action_offsite_conversion_value": {
+                        "profit": 0.0,
+                        "period": 1,
+                    },
                     "action_offsite_conversion": {"profit": 0.0, "period": 1},
-                    "impressions": {"profit": -32237.142857142855, "period": 1},
+                    "impressions": {
+                        "profit": -32237.142857142855,
+                        "period": 1,
+                    },
                     "spend": {"profit": -29.621048428571413, "period": 1},
                     "action_link_click": {"profit": -182.0, "period": 1},
                 },
@@ -3393,11 +3127,17 @@ insights = [
                     "dimensions": ["age"],
                 },
                 "profit": {
-                    "action_offsite_conversion_value": {"profit": 0.0, "period": 1},
+                    "action_offsite_conversion_value": {
+                        "profit": 0.0,
+                        "period": 1,
+                    },
                     "action_offsite_conversion": {"profit": 0.0, "period": 1},
                     "impressions": {"profit": -85765.71428571429, "period": 1},
                     "spend": {"profit": -74.93999999999998, "period": 1},
-                    "action_link_click": {"profit": -588.5714285714286, "period": 1},
+                    "action_link_click": {
+                        "profit": -588.5714285714286,
+                        "period": 1,
+                    },
                 },
                 "type": 10,
                 "tag": "Easy",
@@ -3444,10 +3184,14 @@ insights = [
                 "Action steps": {
                     "_comment": "42",
                     "is_cbo": {
-                        "actions": [{"action": "change_status", "value": "PAUSED"}]
+                        "actions": [
+                            {"action": "change_status", "value": "PAUSED"}
+                        ]
                     },
                     "is_not_cbo": {
-                        "actions": [{"action": "change_status", "value": "PAUSED"}],
+                        "actions": [
+                            {"action": "change_status", "value": "PAUSED"}
+                        ],
                         "_comment": "42",
                     },
                 },
@@ -3459,7 +3203,13 @@ insights = [
             {
                 "id": 25,
                 "meta": {
-                    "0": [{"dimension": "age_range", "type": 2, "value": [25, 65]}],
+                    "0": [
+                        {
+                            "dimension": "age_range",
+                            "type": 2,
+                            "value": [25, 65],
+                        }
+                    ],
                     "triggered": {"age_range": [18, 24]},
                 },
                 "input_types": [],
@@ -3488,11 +3238,17 @@ insights = [
                     "dimensions": ["age"],
                 },
                 "profit": {
-                    "action_offsite_conversion_value": {"profit": 0.0, "period": 1},
+                    "action_offsite_conversion_value": {
+                        "profit": 0.0,
+                        "period": 1,
+                    },
                     "action_offsite_conversion": {"profit": 0.0, "period": 1},
                     "impressions": {"profit": 2749.8184828362864, "period": 1},
                     "spend": {"profit": 0.0, "period": 1},
-                    "action_link_click": {"profit": 83.74030417288668, "period": 1},
+                    "action_link_click": {
+                        "profit": 83.74030417288668,
+                        "period": 1,
+                    },
                 },
                 "type": 10,
                 "tag": "Radical",
@@ -3645,8 +3401,8 @@ insights = [
     },
     {
         "metric_name": "cpc",
-        "api": 1,
-        "period": 7,
+        "api": 4,
+        "period": 3,
         "entities_affected": {
             "entities": [
                 {
@@ -3863,7 +3619,13 @@ insights = [
             {
                 "id": 33,
                 "meta": {
-                    "1": [{"dimension": "age_range", "type": 2, "value": [25, 65]}],
+                    "1": [
+                        {
+                            "dimension": "age_range",
+                            "type": 2,
+                            "value": [25, 65],
+                        }
+                    ],
                     "triggered": {"age_range": [18, 24]},
                 },
                 "input_types": [],
@@ -3892,11 +3654,17 @@ insights = [
                     "dimensions": ["age"],
                 },
                 "profit": {
-                    "action_offsite_conversion_value": {"profit": 0.0, "period": 1},
+                    "action_offsite_conversion_value": {
+                        "profit": 0.0,
+                        "period": 1,
+                    },
                     "action_offsite_conversion": {"profit": 0.0, "period": 1},
                     "impressions": {"profit": -42721.28571428572, "period": 1},
                     "spend": {"profit": -35.72343214285714, "period": 1},
-                    "action_link_click": {"profit": -264.5714285714285, "period": 1},
+                    "action_link_click": {
+                        "profit": -264.5714285714285,
+                        "period": 1,
+                    },
                 },
                 "type": 10,
                 "tag": "Safe",
@@ -4015,11 +3783,20 @@ insights = [
                     "dimensions": ["age"],
                 },
                 "profit": {
-                    "action_offsite_conversion_value": {"profit": 0.0, "period": 1},
+                    "action_offsite_conversion_value": {
+                        "profit": 0.0,
+                        "period": 1,
+                    },
                     "action_offsite_conversion": {"profit": 0.0, "period": 1},
-                    "impressions": {"profit": -107658.85714285714, "period": 1},
+                    "impressions": {
+                        "profit": -107658.85714285714,
+                        "period": 1,
+                    },
                     "spend": {"profit": -86.44428585714286, "period": 1},
-                    "action_link_click": {"profit": -725.7142857142857, "period": 1},
+                    "action_link_click": {
+                        "profit": -725.7142857142857,
+                        "period": 1,
+                    },
                 },
                 "type": 10,
                 "tag": "Easy",
@@ -4066,10 +3843,14 @@ insights = [
                 "Action steps": {
                     "_comment": "42",
                     "is_cbo": {
-                        "actions": [{"action": "change_status", "value": "PAUSED"}]
+                        "actions": [
+                            {"action": "change_status", "value": "PAUSED"}
+                        ]
                     },
                     "is_not_cbo": {
-                        "actions": [{"action": "change_status", "value": "PAUSED"}],
+                        "actions": [
+                            {"action": "change_status", "value": "PAUSED"}
+                        ],
                         "_comment": "42",
                     },
                 },
@@ -4081,7 +3862,13 @@ insights = [
             {
                 "id": 25,
                 "meta": {
-                    "0": [{"dimension": "age_range", "type": 2, "value": [25, 65]}],
+                    "0": [
+                        {
+                            "dimension": "age_range",
+                            "type": 2,
+                            "value": [25, 65],
+                        }
+                    ],
                     "triggered": {"age_range": [18, 24]},
                 },
                 "input_types": [],
@@ -4110,11 +3897,17 @@ insights = [
                     "dimensions": ["age"],
                 },
                 "profit": {
-                    "action_offsite_conversion_value": {"profit": 0.0, "period": 1},
+                    "action_offsite_conversion_value": {
+                        "profit": 0.0,
+                        "period": 1,
+                    },
                     "action_offsite_conversion": {"profit": 0.0, "period": 1},
                     "impressions": {"profit": 3015.186694441334, "period": 1},
                     "spend": {"profit": 1.4210854715202004e-14, "period": 1},
-                    "action_link_click": {"profit": 60.218167007998204, "period": 1},
+                    "action_link_click": {
+                        "profit": 60.218167007998204,
+                        "period": 1,
+                    },
                 },
                 "type": 10,
                 "tag": "Radical",
@@ -4268,7 +4061,7 @@ insights = [
     {
         "metric_name": "cpc",
         "api": 1,
-        "period": 7,
+        "period": 9,
         "entities_affected": {
             "entities": [
                 {
@@ -4511,11 +4304,17 @@ insights = [
                     "dimensions": [],
                 },
                 "profit": {
-                    "action_offsite_conversion_value": {"profit": 0.0, "period": 1},
+                    "action_offsite_conversion_value": {
+                        "profit": 0.0,
+                        "period": 1,
+                    },
                     "action_offsite_conversion": {"profit": 0.0, "period": 1},
                     "impressions": {"profit": 764.055710230059, "period": 1},
                     "spend": {"profit": 0.0, "period": 1},
-                    "action_link_click": {"profit": 80.99424117178887, "period": 1},
+                    "action_link_click": {
+                        "profit": 80.99424117178887,
+                        "period": 1,
+                    },
                 },
                 "type": 10,
                 "tag": "Safe",
@@ -4610,11 +4409,17 @@ insights = [
                     "dimensions": [],
                 },
                 "profit": {
-                    "action_offsite_conversion_value": {"profit": 0.0, "period": 1},
+                    "action_offsite_conversion_value": {
+                        "profit": 0.0,
+                        "period": 1,
+                    },
                     "action_offsite_conversion": {"profit": 0.0, "period": 1},
                     "impressions": {"profit": 373.90637661577057, "period": 1},
                     "spend": {"profit": 0.0, "period": 1},
-                    "action_link_click": {"profit": 39.636197776951576, "period": 1},
+                    "action_link_click": {
+                        "profit": 39.636197776951576,
+                        "period": 1,
+                    },
                 },
                 "type": 10,
                 "tag": "Easy",
@@ -4760,8 +4565,8 @@ insights = [
     },
     {
         "metric_name": "cpc",
-        "api": 1,
-        "period": 7,
+        "api": 2,
+        "period": 70,
         "entities_affected": {
             "entities": [
                 {
@@ -5006,16 +4811,26 @@ insights = [
                     "recommended_ratio_1": 50.0,
                     "publisher_platform": {
                         "triggered": ["facebook"],
-                        "non_triggered": ["messenger", "audience_network", "instagram"],
+                        "non_triggered": [
+                            "messenger",
+                            "audience_network",
+                            "instagram",
+                        ],
                     },
                     "dimensions": ["publisher_platform"],
                 },
                 "profit": {
-                    "action_offsite_conversion_value": {"profit": 0.0, "period": 1},
+                    "action_offsite_conversion_value": {
+                        "profit": 0.0,
+                        "period": 1,
+                    },
                     "action_offsite_conversion": {"profit": 0.0, "period": 1},
                     "impressions": {"profit": 10781.032670017157, "period": 1},
                     "spend": {"profit": 0.0, "period": 1},
-                    "action_link_click": {"profit": 32.01906437469938, "period": 1},
+                    "action_link_click": {
+                        "profit": 32.01906437469938,
+                        "period": 1,
+                    },
                 },
                 "type": 10,
                 "tag": "Safe",
@@ -5423,16 +5238,29 @@ insights = [
                     "current_budget": 0.0,
                     "publisher_platform": {
                         "triggered": ["facebook"],
-                        "non_triggered": ["messenger", "audience_network", "instagram"],
+                        "non_triggered": [
+                            "messenger",
+                            "audience_network",
+                            "instagram",
+                        ],
                     },
                     "dimensions": ["publisher_platform"],
                 },
                 "profit": {
-                    "action_offsite_conversion_value": {"profit": 0.0, "period": 1},
+                    "action_offsite_conversion_value": {
+                        "profit": 0.0,
+                        "period": 1,
+                    },
                     "action_offsite_conversion": {"profit": 0.0, "period": 1},
-                    "impressions": {"profit": -16841.738341643446, "period": 1},
+                    "impressions": {
+                        "profit": -16841.738341643446,
+                        "period": 1,
+                    },
                     "spend": {"profit": 2.842170943040401e-14, "period": 1},
-                    "action_link_click": {"profit": 21.929146188842196, "period": 1},
+                    "action_link_click": {
+                        "profit": 21.929146188842196,
+                        "period": 1,
+                    },
                 },
                 "type": 10,
                 "tag": "Safe",
@@ -5824,7 +5652,13 @@ insights = [
             {
                 "id": 123,
                 "meta": {
-                    "1": [{"dimension": "age_range", "type": 2, "value": [45, 54]}],
+                    "1": [
+                        {
+                            "dimension": "age_range",
+                            "type": 2,
+                            "value": [45, 54],
+                        }
+                    ],
                     "triggered": {"age_range": [45, 54]},
                 },
                 "table_header_description": "Set budget for adsets in the test",
@@ -5834,18 +5668,33 @@ insights = [
                     "current_budget": 0.0,
                     "age": {
                         "triggered": ["45-54"],
-                        "non_triggered": ["18-24", "25-34", "65+", "35-44", "55-64"],
+                        "non_triggered": [
+                            "18-24",
+                            "25-34",
+                            "65+",
+                            "35-44",
+                            "55-64",
+                        ],
                         "first_non_triggered": ["18-24", "25-34", "35-44"],
                         "second_non_triggered": ["65+", "55-64"],
                     },
                     "dimensions": ["age"],
                 },
                 "profit": {
-                    "action_offsite_conversion_value": {"profit": 0.0, "period": 1},
+                    "action_offsite_conversion_value": {
+                        "profit": 0.0,
+                        "period": 1,
+                    },
                     "action_offsite_conversion": {"profit": 0.0, "period": 1},
-                    "impressions": {"profit": -1985.5619477708533, "period": 1},
+                    "impressions": {
+                        "profit": -1985.5619477708533,
+                        "period": 1,
+                    },
                     "spend": {"profit": 2.842170943040401e-14, "period": 1},
-                    "action_link_click": {"profit": 14.52106175542383, "period": 1},
+                    "action_link_click": {
+                        "profit": 14.52106175542383,
+                        "period": 1,
+                    },
                 },
                 "type": 10,
                 "tag": "Safe",
@@ -6023,7 +5872,7 @@ insights = [
     {
         "metric_name": "cpc",
         "api": 1,
-        "period": 7,
+        "period": None,
         "entities_affected": {
             "entities": [
                 {
@@ -6251,16 +6100,26 @@ insights = [
                     "current_budget": 0.0,
                     "publisher_platform": {
                         "triggered": ["instagram"],
-                        "non_triggered": ["messenger", "facebook", "audience_network"],
+                        "non_triggered": [
+                            "messenger",
+                            "facebook",
+                            "audience_network",
+                        ],
                     },
                     "dimensions": ["publisher_platform"],
                 },
                 "profit": {
-                    "action_offsite_conversion_value": {"profit": 0.0, "period": 1},
+                    "action_offsite_conversion_value": {
+                        "profit": 0.0,
+                        "period": 1,
+                    },
                     "action_offsite_conversion": {"profit": 0.0, "period": 1},
                     "impressions": {"profit": 7290.264516618488, "period": 1},
                     "spend": {"profit": 0.0, "period": 1},
-                    "action_link_click": {"profit": 9.988494998245756, "period": 1},
+                    "action_link_click": {
+                        "profit": 9.988494998245756,
+                        "period": 1,
+                    },
                 },
                 "type": 10,
                 "tag": "Safe",

@@ -21,6 +21,12 @@ Create programs that:
 7. Sort list of insights by "type", "api", "report_name" and "objective"
 8. If "report_name" equal "device" make this value uppercase
 9. If "page_id" equal "(not set)" replace it by None
+10. Calculate summary by formulas (if period > 4 or None set default period as 7):
+    * api == 1 like: (sum * sum_level / sum_general) / period
+    * api == 2 like: (sum * sum_level^2 / sum_general) / period
+    * api == 3 like: (sum_level / sum_general) / period
+    * api == 4 like: (sum_level * sum_general / 100) / period
+11. Merge all entities from entities into one list of dicts if "spend_sum" of entity > 200
 
 Create python programs using:
 * Different data types

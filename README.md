@@ -7,7 +7,7 @@ For create HW or practise you should do:
     * ця команда є аналогом двох команд:
         * `git branch {folder_name}-{your_name}` - створює нову гілку
         * `git checkout {folder_name}-{your_name}` - переключаємось з гілки master на нову гілку
-
+    * Example: `1_functions-Trynus_Nikita`
 4.  Copy necessary files from main folder (Yurii_Khomych) to your {Your_Name} 
 
 5. `git add .` or `git add {your_file}` - Додаємо файл в стадію stage
