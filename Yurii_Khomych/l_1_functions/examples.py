@@ -1,15 +1,43 @@
+# try:
+#     one = int("1")
+#     # raise EOFError
+#     one / 0
+# except TypeError as e:
+#     print(e)
+# except EOFError as e:
+#     print(e)
+# except Exception as e:
+#     print(e, "other exception")
+# else:
+#     print("Else statement")
+# finally:
+#     print("Execute always")
+
 # my_list = [1,2,3,4]
 #
 # for item in my_list:
 #     print(item)
-#     if item == 3:
-#         break
+#     if item == 4:
+#         continue
 # else:
-#     print("fine")
+#      print("fine")
 #
-# # while my_list:
-# #     my_list.pop()
+# None
 #
+# while my_list:
+#     print(my_list.pop())
+# else:
+#     print("gocha")
+
+
+# if el:
+
+# list_comp = [element for element in range(5)]
+# set_comp = {element for element in range(5)}
+# dict_comp = {element: element - 1 for element in range(5)}
+# gen_exp = (element for element in range(5))
+# pass
+
 #
 # def add_one(number):
 #      y = number + 1
@@ -30,7 +58,7 @@
 # a
 # 3
 #
-# def my_sum(my_integers):
+# def my_sum(my_integers): # * vs no *
 #     result = 0
 #     for x in my_integers:
 #         result += x
@@ -88,7 +116,7 @@
 # a = [*"RealPython"]
 
 
-houses = ["Misha's house", "Darya's house", "Olen house", "Max's house"]
+# houses = ["Misha's house", "Darya's house", "Olen house", "Max's house"]
 
 # Each function call represents an elf doing his work
 # def deliver_presents_recursively(houses):
@@ -171,18 +199,18 @@ houses = ["Misha's house", "Darya's house", "Olen house", "Max's house"]
 #     a = 10
 # function()
 
-
-def f1():
-    a = 1
-    b = 2
-
-    def f2():
-        # a += b
-        nonlocal a
-        a = a + b
-        return a
-
-    return f2()
-
-
-f1()
+#
+# def f1():
+#     a = 1
+#     b = 2
+#
+#     def f2():
+#         # a += b
+#         nonlocal a
+#         a = a + b
+#         return a
+#
+#     return f2()
+#
+#
+# f1()

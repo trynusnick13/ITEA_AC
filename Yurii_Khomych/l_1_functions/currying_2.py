@@ -24,7 +24,9 @@ kilometer2meter_result = kilometer2meter(565)
 meter2centimeter_result = meter2centimeter(kilometer2meter_result)
 centimeter2feet_result = centimeter2feet(meter2centimeter_result)
 
-centimeter2feet_result = centimeter2feet(meter2centimeter(kilometer2meter(565)))
+centimeter2feet_result = centimeter2feet(
+    meter2centimeter(kilometer2meter(565))
+)
 
 
 transform = change(centimeter2feet, meter2centimeter, kilometer2meter)
