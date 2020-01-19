@@ -24,11 +24,6 @@ def remove_in_dict_by_value(some_dict, string='', value=None):
 
 
 def remove_by_value(some_list, unused_keys='', value=None):
-    """
-    :param some_list: pretty clear
-    :param unused_keys: key to delete
-    :return: formatted list
-    """
     try:
         if some_list == []:
             raise Exception("Give me something that worth my time")
@@ -65,29 +60,25 @@ def get_all_in_dict(some_dict, all, get_key=''):
         print(err)
 
 
-def key_for_sort(dict_):
-    return i.get('report_name')
+def sorting(dict_, by_what):
+    return sorted(dict_, key=lambda x: x.get('by_what', 'Nonetype'))
 
 
-# a = [{'a':1, 'b':1, 'd':4, 'c':{'a':1, 'b':3, 'd':4, 'm':[{'a':1, 'b':3, 'd':4}]}},{'c':1, 'b':3},\
-#                                                                     {'a':[{'a':1, 'b':3, 'd':4}]}  ]
+def replacing(dict_, key_to_replace, condition, replacing_word):
+    for i in dict_:
+        if i.get(key_to_replace) == condition:
+            i[key_to_replace] = replacing_word
+            print(i.get(key_to_replace, None))
 
-# a = remove_by_value(a, 'b')
-b = get_all(insights,[], 'metric_sums')
-# insights = remove(insights, 'period count total_count page_id link status days_in_data')
-#
-sum_lev=0
-sum_lev =list(map(lambda x1, x2, x3, x4, x5, x6, x7, x8, x9, x10, x11 :\
-                      x1['sum_level']+ x2['sum_level']+ x3['sum_level']+ x4['sum_level']+ x5['sum_level']+\
-                      x6['sum_level']+ x7['sum_level']+ x8['sum_level']+ x9['sum_level']+\
-                      x10['sum_level']+ x11 ['sum_level'], *b))
-print(sum(sum_lev))
+def calculating(string):
+    temp = get_all(insights, [], 'metric_sums')
+    sum_ = list(map(lambda x1, x2, x3, x4, x5, x6, x7, x8, x9, x10, x11:
+                           x1[string] + x2[string] + x3[string] + x4[string] + x5[string] +
+                           x6[string] + x7[string] + x8[string] + x9[string] +
+                           x10[string] + x11[string], *temp))
+    return sum(sum_)
 
-a = sorted(insights, key=lambda x: x.get('report_name', 'Nonetype'))
-for i in a:
-   print(i.get('report_name', 'NoneType'))
-
-for i in insights:
-    if i.get('report_name') == 'device':
-        i['report_name'] = 'device'.upper()
-        print(i['report_name'])
+if __name__ == '__main__':
+    for i in insights:
+        print(i.get('page_id'))
+    replacing(insights, 'page_id', '(not set)', None)
