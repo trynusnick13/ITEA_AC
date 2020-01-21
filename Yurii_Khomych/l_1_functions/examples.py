@@ -58,6 +58,12 @@
 # a
 # 3
 #
+# *a, b = 1, 2, 3, 4, 5
+# a, *b = 1, 2, 3, 4, 5
+# a, *b, c = 1, 2, 3, 4, 5
+# pass
+
+
 # def my_sum(my_integers): # * vs no *
 #     result = 0
 #     for x in my_integers:
@@ -71,10 +77,10 @@
 #
 # def my_sum(a, b, *args):
 #     result = 0
-#     # Iterating over the Python args tuple
-#     for x in list(args):
-#         result += x
-#     return result
+    # Iterating over the Python args tuple
+    # for x in list(args):
+    #     result += x
+    # return result
 # my_sum(1, 2, 3, 4, 5, 6)
 #
 # a, b, *c = 1, 2, 3, 4, 5
@@ -94,19 +100,33 @@
 
 # integers type is tuple
 
-# def concatenate(f, z, **kwargs):
+# def concatenate(*args, **kwargs):
 #     result = ""
 #     # Iterating over the Python kwargs dictionary
 #     for arg in kwargs.values():
 #         result += arg
 #     return result
-#
+
+# concatenate("1", "2", a="Real", b="Python", c="Is", d="Great", e="!")
+# concatenate(fz_dict)
 # fz_dict = {"f": 1, "z": 2, "za": 123}
 # my_dict = {'a': 'Real', 'b': 'Python', 'c': 'Is', 'd': 'Great', 'e': '!'}
 #
+# dict(a=1, b=2)
 # new_dict = dict(**fz_dict, **my_dict)
 # concatenate(**fz_dict, **my_dict)
 # concatenate(f=1, z=2, kwargs=my_dict)
+
+# def my_func(a, b, *, **kwargs):
+#     print(a, b, kwargs)
+
+# my_func(1, 2, 3, 4, a=56)
+# pass
+# list1 = [1, 2, 3]
+# list2 = [4, 5]
+# list3 = [6, 7, 8, 9]
+#
+# sum(*list1, *list2, *list3)
 #
 # my_tuple = 1, 3, 4
 #
@@ -116,7 +136,7 @@
 # a = [*"RealPython"]
 
 
-# houses = ["Misha's house", "Darya's house", "Olen house", "Max's house"]
+# houses = ["Misha's house", "Darya's house", "Olen house", "Max's house", "Best house"]
 
 # Each function call represents an elf doing his work
 # def deliver_presents_recursively(houses):
@@ -131,18 +151,53 @@
 #         first_half = houses[:mid]
 #         second_half = houses[mid:]
 #
-#         # Divides his work among two elves
+# #         # Divides his work among two elves
 #         deliver_presents_recursively(first_half)
 #         deliver_presents_recursively(second_half)
-#
+# #
 # deliver_presents_recursively(houses=houses)
+# def factorial_recursive(n):
+    # Base case: 1! = 1
+    # if n == 1:
+    #     return 1
+
+    # Recursive case: n! = n * (n-1)!
+    # else:
+    #     return n * factorial_recursive(n-1)
 #
-# def identity(x):
-#      return x
+# x = factorial_recursive(10)
+
 #
-# a = lambda x: x
+def identity(x):
+     return x
+a = lambda x: x + 1
 #
-# lambda x: x + 1
+# a = filter(lambda arg, arg_2: arg if arg > 1 else "Fine" if arg > 2 else "Good", [1,2,3])
+
+
+pass
+
+# def my_func():
+#     a = lambda: 1
+#     b = lambda: 2
+#     def my_inner_func():
+#         a()
+#
+# def get_network_name(network_name):
+#     if network_name == "facebook":
+#         return lambda: "facebook"
+#     elif network_name == "google":
+#         return lambda: "google"
+#
+# def get_network_func(network_name):
+#     return {
+#         "facebook": lambda : "facebook",
+#         "google": lambda : "google",
+#     }.get(network_name, lambda: "Unused network")
+#
+# for network in ("snap", "google"):
+#     get_network_func(network_name=network)()
+
 #
 # (lambda x: x + 1)(2)
 # # 3
@@ -188,7 +243,7 @@
 # a = 5
 # def function():
 #     print(a)
-#     a = 10
+    # a = 10
 # function()
 # print()
 #
@@ -200,9 +255,11 @@
 # function()
 
 #
+# a = 1
 # def f1():
 #     a = 1
 #     b = 2
+#     global a
 #
 #     def f2():
 #         # a += b
@@ -214,3 +271,30 @@
 #
 #
 # f1()
+# def facebook_processor(name, age, male=None):
+#     return f"{name}, {age}"
+
+
+# def get_network_func(network_name, **kwargs):
+#     return {
+#         "facebook": lambda : facebook_processor(name="Mark", age=30, **kwargs),
+#         "google": lambda : "google",
+#     }.get(network_name, lambda: "Unused network")
+#
+# get_network_func(network_name="facebook")(male="MAN")
+
+
+
+def a():
+     return 1
+
+
+def b():
+     return 1
+
+
+class A:
+     pass
+
+
+{"A": 1, "A": 1}
