@@ -6296,3 +6296,14 @@ insights = [
         "unit_key": "EUR",
     },
 ]
+
+keys = ["objective"]
+
+
+def remove_keys_from_insights(insights):
+    for key in keys:
+        for insight in insights:
+            if key in insight:
+                del insight[key]
+
+remove_keys_from_insights(insights=insights)
