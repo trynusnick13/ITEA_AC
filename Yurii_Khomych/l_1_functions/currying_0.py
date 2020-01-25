@@ -4,10 +4,15 @@ def simple_function(a):
             return [a + b * xi for xi in x]
 
         return compute
+    #
+    # def squad():
+    #     return 1
+    # if a == 1:
+    #     return line
+    # else:
+    #     return squad
 
-    return line
-
-
+simple_function(3)()(1)
 x = range(-4, 4, 1)
 print(f"x {list(x)}".format(list(x)))
 print(f"constant {simple_function(3)()(x)}")

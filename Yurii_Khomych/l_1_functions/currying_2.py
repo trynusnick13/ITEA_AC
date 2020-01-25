@@ -32,4 +32,4 @@ centimeter2feet_result = centimeter2feet(
 transform = change(centimeter2feet, meter2centimeter, kilometer2meter)
 e = transform(565)
 print(e)
-result = change(centimeter2feet, meter2centimeter, kilometer2meter)(565)
+result = change(func_1=centimeter2feet, func_3=meter2centimeter, func_2=kilometer2meter)(565)
