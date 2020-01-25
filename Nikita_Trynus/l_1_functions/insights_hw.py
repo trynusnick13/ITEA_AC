@@ -1,7 +1,4 @@
-from sys import path
-
-path.append(r'/Users/nicktrynus/ITEA_AC/Yurii_Khomych/l_1_functions/')
-from hw_start import insights
+from Yurii_Khomych.l_1_functions.hw_start import *
 
 
 def remove_in_dict_by_value(some_dict, string='', value=None):
@@ -91,6 +88,44 @@ def formulas(key_for_formula):
     return a[key_for_formula]
 
 
+def elita(list_of_insights, value):
+    list_of_entities_mr_than_value = []
+    list_of_entities = get_all(list_of_insights, [], 'entities')
+    print(list_of_entities)
+    for entity in list_of_entities:
+        for i in entity:
+            if i['spend_sum'] > value:
+                list_of_entities_mr_than_value.append(i)
+
+    return list_of_entities_mr_than_value
+
+
+def work_with_apis(list_of_insights):
+    for i in list_of_insights:
+        if i.get('period') is None or i.get('period') > 4:
+            i['period'] = 7
+
+    list_of_metrics_and_periods_api = []
+    for i in list_of_insights:
+        if not i.get('metric_sums') is None:
+            list_of_metrics_and_periods_api.append((i['metric_sums'], i['period'], i['api']))
+
+    print(list_of_metrics_and_periods_api)
+    logg_of_summaries = []
+    for lis, period, api in list_of_metrics_and_periods_api:
+        for metrics in lis:
+            try:
+                metrics.update({'summary': formulas(api)(metrics['sum'], metrics['sum_level'],
+                                                         metrics['sum_general'], period)})
+            except ZeroDivisionError as err:
+                print(err, ' Why on earth are you doing this shit, crazy motherfucker!?!?!?!')
+                metrics.update({'summary': 0})
+
+            logg_of_summaries.append(metrics['summary'])
+    return logg_of_summaries
+
+
+
 if __name__ == '__main__':
     # 1 exercise
     new_insights = remove_by_value(insights, 'period count total_count page_id link status days_in_data')
@@ -123,39 +158,10 @@ if __name__ == '__main__':
     # 8+9 exercises
     replacing(insights, 'report_name', 'device', 'device'.upper())
     replacing(insights, 'page_id', '(not set)', None)
-    # 11+10
-
-    list_of_entities_mr_than_200 = []
-    list_of_entities = get_all(insights, [], 'entities')
-    print(list_of_entities)
-    for entity in list_of_entities:
-        for i in entity:
-            if i['spend_sum'] > 200:
-                list_of_entities_mr_than_200.append(i)
-
-    for i in list_of_entities_mr_than_200:
-        print(i['spend_sum'])
-
-    for i in insights:
-        if i.get('period') is None or i.get('period') > 4:
-            i['period'] = 7
-
-    list_of_metrics_and_periods_api = []
-    for i in insights:
-        if not i.get('metric_sums') is None:
-            list_of_metrics_and_periods_api.append((i['metric_sums'], i['period'], i['api']))
-
-    print(list_of_metrics_and_periods_api)
-    logg_of_summaries = []
-    for lis, period, api in list_of_metrics_and_periods_api:
-        for metrics in lis:
-            try:
-                metrics.update({'summary': formulas(api)(metrics['sum'], metrics['sum_level'],
-                                                         metrics['sum_general'], period)})
-            except ZeroDivisionError as err:
-                print(err, ' Why on earth are you doing this shit, crazy motherfucker!?!?!?!')
-                metrics.update({'summary': 0})
-
-            logg_of_summaries.append(metrics['summary'])
-
-    print(logg_of_summaries)
+    # 11
+###############################
+    list_of_appropriate = elita(insights,200)
+#####################################################
+    # 10
+    log = work_with_apis(insights)
+    print(log)
