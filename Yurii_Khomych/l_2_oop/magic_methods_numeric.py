@@ -11,6 +11,9 @@ class Number:
     def __sub__(self, other):
         return Number(self.number - other.number)
 
+    def __divmod__(self, other):
+        return Number(self.number / other.number)
+
     def __repr__(self):
         return f"<Number: {self.number}>"
 

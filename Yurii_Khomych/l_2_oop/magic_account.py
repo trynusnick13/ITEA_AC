@@ -47,57 +47,60 @@ class Account:
         return self.balance < other.balance
 
 
-acc = Account("bob")  # default amount = 0
+#
+# acc = Account("bob")  # default amount = 0
+# acc = Account("bob", 10)
+#
+# # __repr__ __str__
+# str(acc)
+# print(acc)
+# repr(acc)
+#
+#
+# # __len__, __getitem__, __reversed__
 acc = Account("bob", 10)
-
-# __repr__ __str__
-str(acc)
-print(acc)
-repr(acc)
-
-
-# __len__, __getitem__, __reversed__
-acc = Account("bob", 10)
-
+#
 acc.add_transaction(20)
 acc.add_transaction(-10)
 acc.add_transaction(50)
 acc.add_transaction(-20)
 acc.add_transaction(30)
-#
+# #
 acc.balance
-
-# __len__, __getitem__, __reversed__
-
+#
+# # __len__, __getitem__, __reversed__
+#
 len(acc)
-
+#
 for t in acc:
     print(t)
-
-acc[1]
+#
+# acc[1]
 list(reversed(acc))
-
-# __eq__, __lt__
-2 > 1
-# True
-
-"a" > "b"
-# False
-
-dir("a")
-
+#
+# # __eq__, __lt__
+# 2 > 1
+# # True
+#
+# "a" > "b"
+# # False
+#
+# dir("a")
+#
 acc2 = Account("tim", 100)
 acc2.add_transaction(20)
 acc2.add_transaction(40)
 acc2.balance
 
 acc2 > acc
+#
+# acc2 > acc
+# acc2 < acc
+#
+# acc == acc2
+#
+# acc3 = Account("tim", 100)
+# acc4 = Account("tim", 100)
+# acc3 == acc4
 
-acc2 > acc
-acc2 < acc
-
-acc == acc2
-
-acc3 = Account("tim", 100)
-acc4 = Account("tim", 100)
-acc3 == acc4
+open()
