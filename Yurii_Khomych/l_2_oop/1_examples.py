@@ -33,28 +33,52 @@
 #     print("{0} is a {1}!".format(philo.name, philo.species))
 
 
-class Dog:
+# class Dog:
 
     # Class Attribute
-    species = "mammal"
+    # species = "mammal"
 
     # Initializer / Instance Attributes
-    def __init__(self, name, age):
-        self.name = name
-        self.age = age
+    # def __init__(self, name, age):
+    #     self.name = name
+    #     self.age = age
 
     # instance method
-    def description(self):
-        return f"{self.name} is {self.age} years old"
+    # def description(self):
+    #     return f"{self.name} is {self.age} years old"
 
     # instance method
-    def speak(self, sound):
-        return "{} says {}".format(self.name, sound)
+    # def speak(self, sound):
+    #     return "{} says {}".format(self.name, sound)
 
 
 # Instantiate the Dog object
-mikey = Dog("Mikey", 6)
-
+# mikey = Dog("Mikey", 6)
+#
 # call our instance methods
-print(mikey.description())
-print(mikey.speak("Gruff Gruff"))
+# print(mikey.description())
+# print(mikey.speak("Gruff Gruff"))
+
+# period = insight.get("period") or 7
+
+# period = 7 if (isinstance(insight["period"], int) and insight["period"] > 4) or insight["period"] is None else insight["period"]
+# period = 7 if insight["period"] > 4 else insight.get("period", 7)
+# period = insight.get("period") if insight["period"] <= 4 else 7
+
+
+# any([key in insight for key in ("name", "key2") for insight in insights])
+
+# any([isinstance(insight["metric_weight"], int) for insight in insights])
+# any([key in insights for key in ("metric_weight", "key2")])
+
+my_dict = {1:
+     lambda ins_period, sum, sum_level, sum_general, **kwargs:
+     (sum * sum_level / sum_general) / ins_period}
+    # ins_period=insight["period"],
+    # sum=insight["sum"],
+    # sum_level=insight["sum_level"],
+    # sum_general=insight["sum_general"],
+    # jony=1,
+    # misha=1,
+
+pass

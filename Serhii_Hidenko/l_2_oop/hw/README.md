@@ -3,7 +3,7 @@
 1. Develop class BaseInsight based on insights from lesson 1 hw.
     * Get main keys ("metric_name", "api", "report_name", "objective", "unit", "currency", "id", "validator_insight_type") for base class attributes.
     * Write method that check "api" in 1,2,3,4 else raise Error
-    * Define magic methods for comparing insights. (Compare insight by "api", "objective", "id")
+    * -- Define magic methods for comparing insights. (Compare insight by "api", "objective", "id")
     * Create attribute `metrics` which is dict of metric_name and MetricSummary class instances with it's own attributes. (Use "metric_summary" key)
         * Write method in BaseInsight that create MetricSummary instances from passed "metric_summary" keys and add it to `metrics` dict.
         self.metrics = `{"cpc": MetricSummary(metric_name, metric...)}`...
@@ -16,5 +16,5 @@
 
 3. Write final function insight_builder for get only needed keys
 from each insight for create Insight network related instances list.
-    * Make copy of each insight and create each insight only 
+    * -- Make copy of each insight and create each insight only 
     from prepared dicts (remove unnecessary keys from insight).

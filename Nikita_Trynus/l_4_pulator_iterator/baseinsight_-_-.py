@@ -1,23 +1,4 @@
-from abc import (
-    ABCMeta,
-    abstractmethod
-)
-
-from Nikita_Trynus.l_1_functions.insights_hw import *
-from Nikita_Trynus.l_3_opchik.save_time_in_txt import time_of_the_execution
-
-
-class AbstractInsight(metaclass=ABCMeta):
-    @abstractmethod
-    def check_api(self):
-        pass
-
-    @abstractmethod
-    def sum_of_metrics(self):
-        pass
-
-
-class BaseInsight(AbstractInsight):
+class BaseInsight:
     # I need more attributes
     def __init__(self, metric_name=None, api=None, report_name=None, objective=None, unit=None, currency=None,
                  id=None, validator_insight_type=None, metrics={}):
@@ -34,12 +15,10 @@ class BaseInsight(AbstractInsight):
     def __str__(self):
         return f'{self.metric_name}{self.api}{self.report_name}{self.objective}{self.unit}{self.currency}{self.id}{self.validator_insight_type}'
 
-    @time_of_the_execution()
     def check_api(self):
         if not (self.api in [i for i in range(1, 5)]):
             raise ValueError('Inappropriate api')
 
-    @time_of_the_execution()
     def sum_of_metrics(self):
         sum_of_fields = 0
         for value_1 in self.metrics.values():
@@ -125,11 +104,17 @@ class BaseInsight(AbstractInsight):
             for name, value in dict_to_set.items():
                 self.metrics.update({name: MetricSummary(**value)})
 
-# Здесь через метаклассы создаю метрик_самм, но на этом этапе я не могу инициализировать так, как ты просил
-# Поэтому дальше я создаю свой метакласс и переопределяю как он будет работать
-list_of_metric_summary = get_all(insights, [], 'metric_summary')
-needed_dict = dict(zip(list_of_metric_summary[0]['cpc'].keys(), [None] * len(list_of_metric_summary[0]['cpc'].keys())))
-MetricSummary = type('MetricSummary', (), needed_dict)
+    @staticmethod
+    def create_cool_metric_summary_object(dict_to_read):
+        metrics = {}
+        print('reading dict')
+        for name, value in dict_to_read.items():
+            metrics.update({name: MetricSummary(**value)})
+
+    @classmethod
+    def func_for_class(cls):
+        return cls('aaaa', 'bbbb')
+    # classmethod could be used in creating a specific type of insight but I am in a hurry
 
 
 class AttributeInitType(type):
@@ -180,9 +165,3 @@ def insight_builder(dict_from_insights):
                     print(MetricSummary(**value).__dict__)
 
         return temp_obj
-
-
-if __name__ == '__main__':
-    for i in insights:
-        a = insight_builder(i)
-        print(insight_builder(i))

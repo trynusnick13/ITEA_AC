@@ -1,5 +1,6 @@
 [flake8]
 ignore = E702, W503
+max-line-length = 120
 exclude =
     # No need to traverse our git directory
     .git,
@@ -12,3 +13,4 @@ exclude =
     .venv,
     migrations,
     Yurii_Khomych,
+    Serhii_Hidenko/source/hw_start.py

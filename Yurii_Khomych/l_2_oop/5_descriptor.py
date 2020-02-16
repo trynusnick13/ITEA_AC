@@ -4,6 +4,7 @@ class RevealAccess:
     """
 
     def __init__(self, initval=None, name='var'):
+        self.__get__()
         self.val = initval
         self.name = name
 
